@@ -22,6 +22,9 @@ export class NobleHouse {
 
     }
 
+checkSucessao(){
+    return `Quantidade de herdeiros são de ${this.quantidadeHerdeiros} e seus nomes são ${this.infoHerdeiros} `
+}
 
 
 }
